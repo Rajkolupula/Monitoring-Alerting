@@ -189,7 +189,7 @@ rule_files:
 scrape_configs:
   - job_name: "prometheus"
     static_configs:
-      - targets: ["localhost:9100"]
+      - targets: ["34.66.55.44:9100"]
 
   - job_name: "ec2-node-exporters"
     ec2_sd_configs:
